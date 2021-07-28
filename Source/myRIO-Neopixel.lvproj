@@ -96,6 +96,7 @@ AddOutputFilter chunkFilter
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
 		<Item Name="Tests" Type="Folder">
 			<Item Name="Main RT.vi" Type="VI" URL="../RT/Tests/Main RT.vi"/>
+			<Item Name="Display Test.vi" Type="VI" URL="../RT/Tests/Display Test.vi"/>
 			<Item Name="Matrix RGB FIFO.vi" Type="VI" URL="../RT/Tests/Matrix RGB FIFO.vi"/>
 			<Item Name="Matrix RGB.vi" Type="VI" URL="../RT/Tests/Matrix RGB.vi"/>
 		</Item>
@@ -1731,8 +1732,8 @@ AddOutputFilter chunkFilter
 		</Item>
 		<Item Name="Display.lvclass" Type="LVClass" URL="../RT/Display/Display.lvclass"/>
 		<Item Name="Display Element.lvclass" Type="LVClass" URL="../RT/Display Element/Display Element.lvclass"/>
-		<Item Name="Display Utilities.lvlib" Type="Library" URL="../RT/Display Utilities/Display Utilities.lvlib"/>
 		<Item Name="Pixel.lvclass" Type="LVClass" URL="../RT/Pixel/Pixel.lvclass"/>
+		<Item Name="Display Utilities.lvlib" Type="Library" URL="../RT/Display Utilities/Display Utilities.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
