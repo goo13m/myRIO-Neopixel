@@ -96,9 +96,9 @@ AddOutputFilter chunkFilter
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
 		<Item Name="Tests" Type="Folder">
 			<Item Name="Main RT.vi" Type="VI" URL="../RT/Tests/Main RT.vi"/>
-			<Item Name="Display Test.vi" Type="VI" URL="../RT/Tests/Display Test.vi"/>
 			<Item Name="Matrix RGB FIFO.vi" Type="VI" URL="../RT/Tests/Matrix RGB FIFO.vi"/>
 			<Item Name="Matrix RGB.vi" Type="VI" URL="../RT/Tests/Matrix RGB.vi"/>
+			<Item Name="Display Test.vi" Type="VI" URL="../RT/Tests/Display Test.vi"/>
 		</Item>
 		<Item Name="LED Matrix Host.lvlib" Type="Library" URL="../RT/LED Matrix Host/LED Matrix Host.lvlib"/>
 		<Item Name="Chassis" Type="myRIO Chassis">
