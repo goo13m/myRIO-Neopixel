@@ -1,5 +1,7 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="19008000">
+	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
+	<Property Name="NI.Project.Description" Type="Str"></Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
@@ -95,6 +97,7 @@ AddOutputFilter chunkFilter
 		<Item Name="Tests" Type="Folder">
 			<Item Name="Main RT.vi" Type="VI" URL="../RT/Tests/Main RT.vi"/>
 			<Item Name="Matrix RGB FIFO.vi" Type="VI" URL="../RT/Tests/Matrix RGB FIFO.vi"/>
+			<Item Name="Display Test.vi" Type="VI" URL="../RT/Tests/Display Test.vi"/>
 			<Item Name="Matrix RGB.vi" Type="VI" URL="../RT/Tests/Matrix RGB.vi"/>
 		</Item>
 		<Item Name="LED Matrix Host.lvlib" Type="Library" URL="../RT/LED Matrix Host/LED Matrix Host.lvlib"/>
@@ -1729,6 +1732,7 @@ AddOutputFilter chunkFilter
 		</Item>
 		<Item Name="Display.lvclass" Type="LVClass" URL="../RT/Display/Display.lvclass"/>
 		<Item Name="Display Element.lvclass" Type="LVClass" URL="../RT/Display Element/Display Element.lvclass"/>
+		<Item Name="Pixel.lvclass" Type="LVClass" URL="../RT/Pixel/Pixel.lvclass"/>
 		<Item Name="Display Utilities.lvlib" Type="Library" URL="../RT/Display Utilities/Display Utilities.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -1765,6 +1769,12 @@ AddOutputFilter chunkFilter
 				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
+				<Item Name="RGB to Color.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/colorconv.llb/RGB to Color.vi"/>
+				<Item Name="Random Number (Range).vi" Type="VI" URL="/&lt;vilib&gt;/numeric/Random Number (Range).vi"/>
+				<Item Name="Random Number (Range) DBL.vi" Type="VI" URL="/&lt;vilib&gt;/numeric/Random Number (Range) DBL.vi"/>
+				<Item Name="Random Number (Range) I64.vi" Type="VI" URL="/&lt;vilib&gt;/numeric/Random Number (Range) I64.vi"/>
+				<Item Name="sub_Random U32.vi" Type="VI" URL="/&lt;vilib&gt;/numeric/sub_Random U32.vi"/>
+				<Item Name="Random Number (Range) U64.vi" Type="VI" URL="/&lt;vilib&gt;/numeric/Random Number (Range) U64.vi"/>
 			</Item>
 			<Item Name="ledmatrix_FPGATarget_MainFPGA_p8SXomXGKcI.lvbitx" Type="Document" URL="../FPGA Bitfiles/ledmatrix_FPGATarget_MainFPGA_p8SXomXGKcI.lvbitx"/>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
