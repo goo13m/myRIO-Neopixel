@@ -97,8 +97,8 @@ AddOutputFilter chunkFilter
 		<Item Name="Tests" Type="Folder">
 			<Item Name="Main RT.vi" Type="VI" URL="../RT/Tests/Main RT.vi"/>
 			<Item Name="Matrix RGB FIFO.vi" Type="VI" URL="../RT/Tests/Matrix RGB FIFO.vi"/>
-			<Item Name="Matrix RGB.vi" Type="VI" URL="../RT/Tests/Matrix RGB.vi"/>
 			<Item Name="Display Test.vi" Type="VI" URL="../RT/Tests/Display Test.vi"/>
+			<Item Name="Matrix RGB.vi" Type="VI" URL="../RT/Tests/Matrix RGB.vi"/>
 		</Item>
 		<Item Name="LED Matrix Host.lvlib" Type="Library" URL="../RT/LED Matrix Host/LED Matrix Host.lvlib"/>
 		<Item Name="Chassis" Type="myRIO Chassis">
@@ -1769,6 +1769,12 @@ AddOutputFilter chunkFilter
 				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
+				<Item Name="RGB to Color.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/colorconv.llb/RGB to Color.vi"/>
+				<Item Name="Random Number (Range).vi" Type="VI" URL="/&lt;vilib&gt;/numeric/Random Number (Range).vi"/>
+				<Item Name="Random Number (Range) DBL.vi" Type="VI" URL="/&lt;vilib&gt;/numeric/Random Number (Range) DBL.vi"/>
+				<Item Name="Random Number (Range) I64.vi" Type="VI" URL="/&lt;vilib&gt;/numeric/Random Number (Range) I64.vi"/>
+				<Item Name="sub_Random U32.vi" Type="VI" URL="/&lt;vilib&gt;/numeric/sub_Random U32.vi"/>
+				<Item Name="Random Number (Range) U64.vi" Type="VI" URL="/&lt;vilib&gt;/numeric/Random Number (Range) U64.vi"/>
 			</Item>
 			<Item Name="ledmatrix_FPGATarget_MainFPGA_p8SXomXGKcI.lvbitx" Type="Document" URL="../FPGA Bitfiles/ledmatrix_FPGATarget_MainFPGA_p8SXomXGKcI.lvbitx"/>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
