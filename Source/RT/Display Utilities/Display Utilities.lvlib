@@ -9,6 +9,7 @@
 </Property>
 	<Item Name="Public" Type="Folder">
 		<Item Name="Atenuate Color.vi" Type="VI" URL="../Public/Atenuate Color.vi"/>
+		<Item Name="Generate Letters Coordinates.vi" Type="VI" URL="../Public/Generate Letters Coordinates.vi"/>
 		<Item Name="Report Invalid DVR.vi" Type="VI" URL="../Public/Report Invalid DVR.vi"/>
 	</Item>
 </Library>
