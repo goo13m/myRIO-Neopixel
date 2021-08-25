@@ -8,6 +8,10 @@
 
 </Property>
 	<Item Name="Public" Type="Folder">
+		<Item Name="Controls" Type="Folder">
+			<Item Name="2D Coordenates.ctl" Type="VI" URL="../Public/Controls/2D Coordenates.ctl"/>
+			<Item Name="2D Dimensions.ctl" Type="VI" URL="../Public/Controls/2D Dimensions.ctl"/>
+		</Item>
 		<Item Name="Atenuate Color.vi" Type="VI" URL="../Public/Atenuate Color.vi"/>
 		<Item Name="Generate Letters Coordinates.vi" Type="VI" URL="../Public/Generate Letters Coordinates.vi"/>
 		<Item Name="Report Invalid DVR.vi" Type="VI" URL="../Public/Report Invalid DVR.vi"/>

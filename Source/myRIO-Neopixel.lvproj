@@ -20,6 +20,7 @@
 			<Item Name="Display Text Test.vi" Type="VI" URL="../RT/Tests/Display Text Test.vi"/>
 			<Item Name="Shooting Stars Test.vi" Type="VI" URL="../RT/Tests/Shooting Stars Test.vi"/>
 			<Item Name="Shooting Stars RT Test.vi" Type="VI" URL="../RT/Tests/Shooting Stars RT Test.vi"/>
+			<Item Name="Display Elements Test Panel.vi" Type="VI" URL="../RT/Tests/Display Elements Test Panel.vi"/>
 		</Item>
 		<Item Name="LED Matrix Host.lvlib" Type="Library" URL="../RT/LED Matrix Host/LED Matrix Host.lvlib"/>
 		<Item Name="Display.lvclass" Type="LVClass" URL="../RT/Display/Display.lvclass"/>
@@ -28,7 +29,6 @@
 		<Item Name="Square.lvclass" Type="LVClass" URL="../RT/Square/Square.lvclass"/>
 		<Item Name="String.lvclass" Type="LVClass" URL="../RT/String/String.lvclass"/>
 		<Item Name="Display Utilities.lvlib" Type="Library" URL="../RT/Display Utilities/Display Utilities.lvlib"/>
-		<Item Name="Display Elements Test Panel.vi" Type="VI" URL="../RT/Tests/Display Elements Test Panel.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
