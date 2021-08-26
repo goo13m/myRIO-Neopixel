@@ -28,6 +28,7 @@
 		<Item Name="Pixel.lvclass" Type="LVClass" URL="../RT/Pixel/Pixel.lvclass"/>
 		<Item Name="Square.lvclass" Type="LVClass" URL="../RT/Square/Square.lvclass"/>
 		<Item Name="String.lvclass" Type="LVClass" URL="../RT/String/String.lvclass"/>
+		<Item Name="Graph.lvclass" Type="LVClass" URL="../RT/Graph/Graph.lvclass"/>
 		<Item Name="Display Utilities.lvlib" Type="Library" URL="../RT/Display Utilities/Display Utilities.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
