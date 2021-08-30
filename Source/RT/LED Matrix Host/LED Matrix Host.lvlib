@@ -28,4 +28,5 @@
 		<Item Name="Iterate Animation.vi" Type="VI" URL="../Public/Iterate Animation.vi"/>
 		<Item Name="Matrix to Raw Data.vi" Type="VI" URL="../Public/Matrix to Raw Data.vi"/>
 	</Item>
+	<Item Name="Single pass per array.vi" Type="VI" URL="../Public/Single pass per array.vi"/>
 </Library>
