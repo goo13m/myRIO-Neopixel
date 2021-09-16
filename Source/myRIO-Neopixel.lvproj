@@ -104,6 +104,7 @@ AddOutputFilter chunkFilter
 			<Item Name="Shooting Stars RT Test.vi" Type="VI" URL="../RT/Tests/Shooting Stars RT Test.vi"/>
 			<Item Name="Display Elements RT Test Panel.vi" Type="VI" URL="../RT/Tests/Display Elements RT Test Panel.vi"/>
 			<Item Name="Display Elements Test Panel.vi" Type="VI" URL="../RT/Tests/Display Elements Test Panel.vi"/>
+			<Item Name="Graph RT Test Panel.vi" Type="VI" URL="../RT/Tests/Graph RT Test Panel.vi"/>
 			<Item Name="3 Matrix RGB.vi" Type="VI" URL="../RT/Tests/3 Matrix RGB.vi"/>
 		</Item>
 		<Item Name="Chassis" Type="myRIO Chassis">
