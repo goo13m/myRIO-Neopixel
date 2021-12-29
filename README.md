@@ -17,7 +17,7 @@ Neopixel Matrixes 8x8 Ws2812 5050
 
 The following diagram illustrates the diagram used for testing this library. Consider replicating the connection pattern if one or more 8x8 LED matrixes are required to be added.
 
-![Connections](./Source/Documentation/Conections.PNG)
+![Connections](./Source/Documentation/Connections.PNG)
 
 ![MatrixesArrangement](./Source/Documentation/MatrixesArrangement.PNG)
 
