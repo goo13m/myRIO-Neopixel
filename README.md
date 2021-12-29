@@ -14,7 +14,9 @@ LabVIEW FPGA
 
 NI RIO board with TTL outputs.
 
-Neopixel Matrixes 8x8 Ws2812 5050
+Neopixel Matrixes 8x8 Ws2812 5050.
+
+Power Supply 5V (at least 3A per 8x8 Neopixel Matrix).
 
 ## Connections
 
