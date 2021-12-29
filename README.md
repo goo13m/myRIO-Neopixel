@@ -5,12 +5,15 @@ The myRIO-Neopixel is a LabVIEW RT and FPGA API that allow users to display mult
 ## LabVIEW Requirements
 
 LabVIEW 2019 or older
+
 LabVIEW RT
+
 LabVIEW FPGA
 
 ## Hardware Requirements
 
 NI RIO board with TTL outputs.
+
 Neopixel Matrixes 8x8 Ws2812 5050
 
 ## Connections
