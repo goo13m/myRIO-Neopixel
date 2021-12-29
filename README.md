@@ -30,7 +30,7 @@ This library has been tested using up to 3 Neopixel Matrixes 8x8 Ws2812 5050, bu
 
 ![SupportedConfigurations](./Source/Documentation/SupportedConfigurations.PNG)
 
-The limit of the number of matrixes that could be controlled by just one digital output will depend on how big is the FPGA that is been used, and also on the WS2812 limitations. Refer to [WS2812B Datasheet](https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf) for WS2812 limitations.
+The limit of the number of matrixes that could be controlled by just one digital output will depend on how big is the FPGA that is been used, and also on the WS2812 limitations (refer to [WS2812B Datasheet](https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)).
 
 
 ## License
