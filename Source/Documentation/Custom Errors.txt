@@ -1,2 +1,3 @@
 Error	VI
 9000	Graph.lvclass:Scale And Set Data Array.vi
+9001	Display.lvclass:Search Element By Tag.vi
