@@ -1682,6 +1682,7 @@ AddOutputFilter chunkFilter
 		<Item Name="String.lvclass" Type="LVClass" URL="../RT/String/String.lvclass"/>
 		<Item Name="Graph.lvclass" Type="LVClass" URL="../RT/Graph/Graph.lvclass"/>
 		<Item Name="Display Utilities.lvlib" Type="Library" URL="../RT/Display Utilities/Display Utilities.lvlib"/>
+		<Item Name="Neopixel Shared.lvlib" Type="Library" URL="../Shared/Neopixel Shared.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
@@ -1728,6 +1729,7 @@ AddOutputFilter chunkFilter
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="myrio-neopixel_FPGATarget_TestNeopixel_-8uHP6HNTAw.lvbitx" Type="Document" URL="../FPGA Bitfiles/myrio-neopixel_FPGATarget_TestNeopixel_-8uHP6HNTAw.lvbitx"/>
+			<Item Name="myrio-neopixel_FPGATarget_TestNeopixel_1brLkiSU7wo.lvbitx" Type="Document" URL="../FPGA Bitfiles/myrio-neopixel_FPGATarget_TestNeopixel_1brLkiSU7wo.lvbitx"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
