@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2021-12-28 22:39:50" Modified_Date="2024-08-17 17:19:15" Creator="goo13" Comments="" ID="a8ea25501767315bdbfc57ab45a8aeed">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2021-12-28 22:39:50" Modified_Date="2024-08-18 13:49:00" Creator="goo13" Comments="" ID="0c61e1bc0c1eae9237a2fa87068e72de">
   <Library_General_Settings>
     <Package_File_Name>Memosfet_lib_myRIO_Neopixel</Package_File_Name>
-    <Library_Version>1.0.0.7</Library_Version>
+    <Library_Version>1.0.0.8</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\Source</Library_Source_Folder>
     <Library_Output_Folder>Built</Library_Output_Folder>
@@ -295,7 +295,7 @@
         <Path>..\Source\RT\Graph</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>EF093D21190A3EDA6013698D5D6A1700</GUID>
+      <GUID>5EBACB41AE9BFE98C822C05C19E2A0CB</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -456,7 +456,7 @@
         <Path>..\Source\RT\Display\Public\Send Frame.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D16621E907F2A09CF88890691FB670E5</GUID>
+      <GUID>CD393B7E3DF9F0753C703944F534638C</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -519,7 +519,7 @@
         <Path>..\Source\RT\Pixel\Public\Destroy.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B0D35A40E43F4A15910D86D219C3AB12</GUID>
+      <GUID>E366A33D3F0BFE5DD408BACE9CEFFC2B</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -582,7 +582,7 @@
         <Path>..\Source\RT\Square\Public\Destroy.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>BD081D23ADE2C3C8C25B0BF2F52E2203</GUID>
+      <GUID>0EF4A286DAABF8F5A4FD6EFED3BDBB40</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -645,7 +645,7 @@
         <Path>..\Source\RT\String\Public\Destroy.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>39EC078C416745BFA14FECCFD95897F3</GUID>
+      <GUID>AA73D216D69F9614F3DB2F5A5DA37808</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -736,7 +736,7 @@
         <Path>..\Source\RT\Graph\Public\Scale And Set Data Array.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>ACB40EB30ED0E867AF2CA6AA40320DC3</GUID>
+      <GUID>06D60A74E28884C34C643A02B42BFFF1</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
   <Library_Palette_Definition>
@@ -759,7 +759,7 @@
         <Synchronyze_with_Directory>false</Synchronyze_with_Directory>
         <Synchronize_Directory_Path>.</Synchronize_Directory_Path>
       </Synchronization_Info>
-      <GUID>81B640F97824BCF8917C6566F87AD453</GUID>
+      <GUID>B4B04669268000CBB25638AB07B521AD</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
