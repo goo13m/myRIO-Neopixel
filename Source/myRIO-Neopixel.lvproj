@@ -1594,11 +1594,7 @@ AddOutputFilter chunkFilter
 				</Item>
 				<Item Name="Neopixel Shared.lvlib" Type="Library" URL="../Shared/Neopixel Shared.lvlib"/>
 				<Item Name="Neopixel - FPGA.lvclass" Type="LVClass" URL="../FPGA/Neopixel - FPGA.lvclass"/>
-				<Item Name="Dependencies" Type="Dependencies">
-					<Item Name="vi.lib" Type="Folder">
-						<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
-					</Item>
-				</Item>
+				<Item Name="Dependencies" Type="Dependencies"/>
 				<Item Name="Build Specifications" Type="Build">
 					<Item Name="Test Neopixel" Type="{F4C5E96F-7410-48A5-BB87-3559BC9B167F}">
 						<Property Name="AllowEnableRemoval" Type="Bool">false</Property>
@@ -1641,7 +1637,8 @@ AddOutputFilter chunkFilter
 				</Item>
 			</Item>
 		</Item>
-		<Item Name="Display.lvclass" Type="LVClass" URL="../RT/Display/Display.lvclass"/>
+		<Item Name="Display Manager.lvclass" Type="LVClass" URL="../RT/Display/Display Manager.lvclass"/>
+		<Item Name="Neopixel - RT.lvclass" Type="LVClass" URL="../RT/Neopixel - RT/Neopixel - RT.lvclass"/>
 		<Item Name="Display Element.lvclass" Type="LVClass" URL="../RT/Display Element/Display Element.lvclass"/>
 		<Item Name="Pixel.lvclass" Type="LVClass" URL="../RT/Pixel/Pixel.lvclass"/>
 		<Item Name="Square.lvclass" Type="LVClass" URL="../RT/Square/Square.lvclass"/>
@@ -1692,6 +1689,14 @@ AddOutputFilter chunkFilter
 				<Item Name="Random Number (Range) U64.vi" Type="VI" URL="/&lt;vilib&gt;/numeric/Random Number (Range) U64.vi"/>
 			</Item>
 			<Item Name="Test Neopixel.lvbitx" Type="Document" URL="../../FPGA Bitfiles/Test Neopixel.lvbitx"/>
+			<Item Name="Initialize FPGA Resource.vi" Type="VI" URL="../RT/Display/Public/Initialize FPGA Resource.vi"/>
+			<Item Name="Send Frame.vi" Type="VI" URL="../RT/Display/Public/Send Frame.vi"/>
+			<Item Name="Generate Raw Data.vi" Type="VI" URL="../RT/Display/Public/Generate Raw Data.vi"/>
+			<Item Name="Apply Gains And Decompose Color.vi" Type="VI" URL="../RT/Display/Private/Apply Gains And Decompose Color.vi"/>
+			<Item Name="Rearrange Into 1D Array.vi" Type="VI" URL="../RT/Display/Private/Rearrange Into 1D Array.vi"/>
+			<Item Name="Write To FIFO.vi" Type="VI" URL="../RT/Display/Private/Write To FIFO.vi"/>
+			<Item Name="RGB Gains.ctl" Type="VI" URL="../RT/Display/Public/Controls/RGB Gains.ctl"/>
+			<Item Name="FPGA Reference.ctl" Type="VI" URL="../RT/Display/Public/Controls/FPGA Reference.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
