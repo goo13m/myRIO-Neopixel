@@ -1644,6 +1644,7 @@ AddOutputFilter chunkFilter
 		<Item Name="Square.lvclass" Type="LVClass" URL="../RT/Square/Square.lvclass"/>
 		<Item Name="String.lvclass" Type="LVClass" URL="../RT/String/String.lvclass"/>
 		<Item Name="Graph.lvclass" Type="LVClass" URL="../RT/Graph/Graph.lvclass"/>
+		<Item Name="Animation.lvclass" Type="LVClass" URL="../RT/Animation/Animation.lvclass"/>
 		<Item Name="Display Utilities.lvlib" Type="Library" URL="../RT/Display Utilities/Display Utilities.lvlib"/>
 		<Item Name="Neopixel Shared.lvlib" Type="Library" URL="../Shared/Neopixel Shared.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -1658,9 +1659,6 @@ AddOutputFilter chunkFilter
 				<Item Name="Random Number (Range) U64.vi" Type="VI" URL="/&lt;vilib&gt;/numeric/Random Number (Range) U64.vi"/>
 			</Item>
 			<Item Name="Test Neopixel.lvbitx" Type="Document" URL="../../FPGA Bitfiles/Test Neopixel.lvbitx"/>
-			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
