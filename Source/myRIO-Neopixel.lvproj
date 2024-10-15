@@ -103,6 +103,25 @@ AddOutputFilter chunkFilter
 			<Item Name="Display Elements RT Test Panel.vi" Type="VI" URL="../RT/Tests/Display Elements RT Test Panel.vi"/>
 			<Item Name="Graph RT Test Panel.vi" Type="VI" URL="../RT/Tests/Graph RT Test Panel.vi"/>
 		</Item>
+		<Item Name="Display Manager" Type="Folder">
+			<Item Name="Display Elements" Type="Folder">
+				<Item Name="Display Element.lvclass" Type="LVClass" URL="../RT/Display Element/Display Element.lvclass"/>
+				<Item Name="Pixel.lvclass" Type="LVClass" URL="../RT/Pixel/Pixel.lvclass"/>
+				<Item Name="Square.lvclass" Type="LVClass" URL="../RT/Square/Square.lvclass"/>
+				<Item Name="String.lvclass" Type="LVClass" URL="../RT/String/String.lvclass"/>
+				<Item Name="Graph.lvclass" Type="LVClass" URL="../RT/Graph/Graph.lvclass"/>
+			</Item>
+			<Item Name="Animations" Type="Folder">
+				<Item Name="Animation.lvclass" Type="LVClass" URL="../RT/Animation/Animation.lvclass"/>
+				<Item Name="Shooting Stars.lvclass" Type="LVClass" URL="../RT/Shooting Stars/Shooting Stars.lvclass"/>
+			</Item>
+			<Item Name="Display Manager.lvclass" Type="LVClass" URL="../RT/Display Manager/Display Manager.lvclass"/>
+		</Item>
+		<Item Name="Driver" Type="Folder">
+			<Item Name="Neopixel - Host.lvclass" Type="LVClass" URL="../RT/Neopixel - Host/Neopixel - Host.lvclass"/>
+			<Item Name="Neopixel Shared.lvlib" Type="Library" URL="../Shared/Neopixel Shared.lvlib"/>
+		</Item>
+		<Item Name="Display Utilities.lvlib" Type="Library" URL="../RT/Display Utilities/Display Utilities.lvlib"/>
 		<Item Name="Chassis" Type="myRIO Chassis">
 			<Property Name="crio.ProgrammingMode" Type="Str">fpga</Property>
 			<Property Name="crio.ResourceID" Type="Str">RIO0</Property>
@@ -1637,16 +1656,6 @@ AddOutputFilter chunkFilter
 				</Item>
 			</Item>
 		</Item>
-		<Item Name="Display Manager.lvclass" Type="LVClass" URL="../RT/Display Manager/Display Manager.lvclass"/>
-		<Item Name="Neopixel - Host.lvclass" Type="LVClass" URL="../RT/Neopixel - Host/Neopixel - Host.lvclass"/>
-		<Item Name="Display Element.lvclass" Type="LVClass" URL="../RT/Display Element/Display Element.lvclass"/>
-		<Item Name="Pixel.lvclass" Type="LVClass" URL="../RT/Pixel/Pixel.lvclass"/>
-		<Item Name="Square.lvclass" Type="LVClass" URL="../RT/Square/Square.lvclass"/>
-		<Item Name="String.lvclass" Type="LVClass" URL="../RT/String/String.lvclass"/>
-		<Item Name="Graph.lvclass" Type="LVClass" URL="../RT/Graph/Graph.lvclass"/>
-		<Item Name="Animation.lvclass" Type="LVClass" URL="../RT/Animation/Animation.lvclass"/>
-		<Item Name="Display Utilities.lvlib" Type="Library" URL="../RT/Display Utilities/Display Utilities.lvlib"/>
-		<Item Name="Neopixel Shared.lvlib" Type="Library" URL="../Shared/Neopixel Shared.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
@@ -1659,6 +1668,9 @@ AddOutputFilter chunkFilter
 				<Item Name="Random Number (Range) U64.vi" Type="VI" URL="/&lt;vilib&gt;/numeric/Random Number (Range) U64.vi"/>
 			</Item>
 			<Item Name="Test Neopixel.lvbitx" Type="Document" URL="../../FPGA Bitfiles/Test Neopixel.lvbitx"/>
+			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
